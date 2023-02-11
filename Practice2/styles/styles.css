@@ -1,0 +1,43 @@
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+.path_video {
+    height: 100%;
+    width: 100%;
+
+}
+.visit_us {
+    background-color: gray;
+}
+.icon1 {
+    background-color: lightblue;
+    height: 100%;
+    width: 100%;
+}
+.icon2 {
+    background-color: lightblue;
+    height: 100%;
+    width: 100%;
+}
+img {
+    height: 30%;
+    width: 50%;
+}
+video {
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+h1 {
+    align-self: center;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    z-index: 1;
+    padding: 20px;
+    color: white;
+}
+aside {
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
